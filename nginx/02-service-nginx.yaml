@@ -12,7 +12,4 @@ spec:
     - name: nginx-port
       protocol: TCP
       port: 80
-      targetPort: 8080
-      # If you set the `spec.type` field to `NodePort` and you want a specific port number,
-      # you can specify a value in the `spec.ports[*].nodePort` field.
-      nodePort: 30080
+      targetPort: 80
